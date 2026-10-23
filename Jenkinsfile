@@ -11,7 +11,7 @@ pipeline {
 
         stage('Test HTML Form') {
             steps {
-                sh 'python3 test.py'
+                bat 'python test.py'
             }
         }
     }
